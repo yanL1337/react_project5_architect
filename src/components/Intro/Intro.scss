@@ -1,0 +1,42 @@
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .imgDesc {
+    h1 {
+      text-transform: uppercase;
+      color: #bdbdbd;
+      font-size: 5rem;
+      font-weight: lighter;
+    }
+    h2 {
+      font-size: 5rem;
+    }
+  }
+  .imgContent {
+    display: flex;
+    align-items: flex-end;
+    background: url("../../assets/img/1st.jpeg") no-repeat center;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    width: 60vw;
+    .imgText {
+      padding: 20px 30px;
+      background-color: white;
+      a {
+        color: black;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        h2 {
+          font-size: 1.5rem;
+          font-weight: lighter;
+          margin-right: 1vw;
+        }
+      }
+    }
+  }
+}

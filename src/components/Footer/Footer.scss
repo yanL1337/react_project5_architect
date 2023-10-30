@@ -1,0 +1,60 @@
+.headings {
+  margin-bottom: 3vh;
+  font-size: 2rem;
+  color: white;
+}
+
+footer {
+  background: rgb(41, 34, 34);
+
+  padding: 5vh 0;
+  display: grid;
+  align-items: start;
+  grid-template-columns: repeat(4, 1fr);
+
+  .imgDiv {
+    background: url("../../assets/img/logo2.png") no-repeat center;
+    background-size: contain;
+    height: 50%;
+  }
+  .information {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      @extend .headings;
+    }
+    a {
+      font-size: 1.4rem;
+      text-decoration: none;
+      color: white;
+      margin-bottom: 2vh;
+    }
+  }
+
+  .contacts {
+    h2 {
+      @extend .headings;
+    }
+    div {
+      margin-bottom: 2vh;
+      display: flex;
+      align-items: center;
+      p {
+        color: white;
+        padding-left: 1vw;
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .socialMedia {
+    h2 {
+      @extend .headings;
+    }
+    .media {
+      svg {
+        margin-right: 1vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.contact {
+  margin-bottom: 10vh;
+  h2 {
+    font-size: 5rem;
+    font-weight: lighter;
+    color: #bdbdbd;
+  }
+  article {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5vw;
+    form {
+      display: flex;
+      flex-direction: column;
+      input,
+      textarea {
+        margin-bottom: 2vh;
+        padding: 2vh 2vw;
+      }
+    }
+    .imgContact {
+      background: url("../../assets/img/contact.jpeg") no-repeat center;
+      background-size: cover;
+    }
+  }
+
+  .imgText {
+    padding: 20px 30px;
+    background-color: white;
+    width: fit-content;
+    a {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      h2 {
+        color: black;
+        font-size: 1.5rem;
+        font-weight: lighter;
+        margin-right: 1vw;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5vh 5vw;
+  align-items: center;
+  .navWrapper {
+    display: flex;
+    align-items: center;
+    nav {
+      padding: 0 5vw;
+      a {
+        font-size: 1.4rem;
+        margin: 0 2vw;
+        text-decoration: none;
+        color: black;
+      }
+    }
+    .dMode {
+      transition: 0.5s ease-in-out;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
